@@ -1,0 +1,163 @@
+/* Basic Reset to Ensure Consistency */
+body, h1, h2, h3, p, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box; /* Important for padding and border */
+}
+
+body {
+    font-family: sans-serif; /* A clean, readable default font */
+    background-color: #060606; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000; /* Slightly lighter dark background for contrast */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4vh;
+}
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #8dd71d; /* A vibrant accent color */
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.spo {
+    color: white;
+}
+
+footer {
+    background-color: #000000;
+    color: #888;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+footer nav li {
+    margin-left: 1rem;
+}
+
+footer nav a {
+    color: #888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer nav a:hover {
+    color: #606060;
+}
+
+body {
+  background-color: #141414;
+}
+.profile_picture {
+  height: 40%;
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 0%;
+  margin-top: 10%;
+  border-radius: 50%;
+  
+}
+.name {
+  margin-left: 0%;
+  margin-bottom: 0%;
+  font-size: 160%;
+  color: white;
+  margin-left: 15%;
+}
+.detail {
+  margin-top: 0%;
+  margin-left: 15%;
+  color: #7e8a96
+}
+.disc {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-weight: bold;
+  color: #7bbef3;
+}
+.discd {
+  color: white;
+  margin-left: 5%;
+}
+.group {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-weight: bold;
+  color: #7bbef3;
+}
+.grlink {
+  color: white;
+  font-weight: normal;
+}
+.mng {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-weight: bold;
+  color: #7bbef3;
+}
+.managment {
+  color: white;
+  margin-left: 5%;
+  font-weight: 600;
+}
+.ownerl {
+  font-weight: normal;
+  color: #7bbef3;
+}
+.adml {
+  font-weight: normal;
+  color: #7bbef3;
+}
+.botl {
+    font-weight: normal;
+    color: #ffffff;
+}
+.shound {
+  font-size: 90%;
+  width: 100%;
+  margin-top: 60px;
+  color: white;
+  text-align: right;
+}
+.wash {
+  margin: auto;
+}
+.facebook-icon {
+ height: 15%; 
+  width: 15%;
+  margin: 1%;
+  margin-top: 50%;
+}
+.youtube-icon {
+ height: 15%; 
+  width: 15%;
+  margin: 1%;
+   margin-top: 50%;
+}
+.mong {
+  height: auto;
+}
